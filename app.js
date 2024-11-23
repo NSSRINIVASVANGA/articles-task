@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 
-const mongoURI = 'mongodb+srv://sriram09877:hQeU0CdBEfQ4mDvf@cluster0.igv02.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const mongoURI = 'mongodb+srv://sriram09877:thotaprasad@cluster0.igv02.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 
 mongoose.connect(mongoURI).then(() => {
