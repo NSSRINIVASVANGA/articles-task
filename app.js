@@ -23,7 +23,7 @@ app.use(express.json());
 const mockArticles = new mongoose.Schema({
     id:Number,
     title: String,
-    exceprt: Number,
+    exceprt: String,
     category: String,
     tags: [String],
     readTime : String,
